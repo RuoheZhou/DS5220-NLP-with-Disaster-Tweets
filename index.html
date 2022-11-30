@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+      <meta charset="utf-8" />
+      <title>Tweet Classification</title>
+      <h1>Tweet Disaster Prediction</h1>
+  </head>
+  <body>
+
+  <form action="/predict" method="post">
+      <input type="text" name="tweets" placeholder="Your Tweet">
+      <button type="submit" class="btn btn-primary btn-block btn-large"> Predict </button>
+  </form>
+
+  <br>
+  <br>
+
+  <b>{{prediction_text}}</b>
+
+
+  </body>
+</html>
